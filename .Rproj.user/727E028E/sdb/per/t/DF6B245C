@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "shinyapppitch\n========================================================\nauthor: Jeremi_Shane\ndate: 5/16/2018\nautosize: true\n\nWelcome to my Shiny App project\n========================================================\n\n- Pitch presentation (you are reading now)\n- Shiny App (https://jeremishane.shinyapps.io/finalproject/)\n- The app includes documentation on how to use it.  Just simply set the slider.\n\nPredict MPG From Horsepower of a Car\n========================================================\n\n```{r}\nmodel1 <- lm(mpg ~ hp, data=mtcars)\nsummary(model1)\n```\n\nLinear Model Plot\n========================================================\n\n```{r, echo=FALSE}\nplot(mtcars$hp, mtcars$mpg, xlab = \"Horsepower\",\n                     ylab = \"Miles Per Gallon\", bty = \"n\", pch = 16,\n                     xlim = c(50, 350), ylim = c(10,50))\n                abline(model1, col=\"red\", lwd = 2)\n                \n                legend(25, 250, c(\"MPG Prediction\"), pch=16, \n                       col = c(\"red\", \"blue\"), bty = \"n\", cex = 1.2)\n```\n\nLink to Shiny App\n========================================================\n\nhttps://jeremishane.shinyapps.io/finalproject/\n",
+    "created" : 1526501534148.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2491976736",
+    "id" : "DF6B245C",
+    "lastKnownWriteTime" : 1526502492,
+    "last_content_update" : 1526502492245,
+    "path" : "~/Desktop/Coursera/assignments/shiny/finalproject/shinyapppitch.Rpres",
+    "project_path" : "shinyapppitch.Rpres",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_presentation"
+}

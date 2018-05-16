@@ -1,0 +1,12 @@
+name: finalproject
+title: finalproject
+username:
+account: jeremishane
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 344195
+bundleId: 1377490
+url: https://jeremishane.shinyapps.io/finalproject/
+when: 1526501314.89025
+asMultiple: FALSE
+asStatic: FALSE
